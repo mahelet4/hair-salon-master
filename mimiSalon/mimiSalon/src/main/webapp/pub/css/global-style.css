@@ -1,0 +1,59 @@
+body::before {
+    content: "";
+    background-image: url('/pub/images/foods_icon.jpg');
+    background-size: 50px 50px; /* Adjust the size of your small images */
+    background-repeat: repeat; /* Repeat the pattern */
+    filter: blur(3px); /* Adjust the opacity value as needed (0.0 to 1.0) */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Place the pseudo-element behind other content */
+}
+h1{
+    font-size: 50px;
+}
+h2 {
+    margin: 100px;
+    font-size: 40px;
+}
+h4{
+    color: black;
+    margin: 20px;
+    font-size: 30px;
+}
+h5{
+    color: white;
+}
+.navbar-brand{
+     margin-left: 95px;
+}
+.navbar-nav .nav-item a.nav-link {
+    color: white !important;
+}
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #FFA500 !important;
+}
+
+.navbar-nav li {
+    margin-right: 65px;
+    text-decoration: none;
+}
+.navbar-custom {
+    background-color: #004658 !important; /* Use !important to override Bootstrap styles */
+}
+.navbar-custom .nav-link {
+    color: black !important; /* Set the font color to white */
+}
+.navbar-brand{
+    color:#87CEEB !important;
+}
+.navbar-brand:hover {
+    color: #5CACEE !important;
+}
+.center-vertical {
+    display: flex;
+    align-items: center;
+    min-height: 100vh; /* Ensure it takes at least the full height of the viewport */
+}
