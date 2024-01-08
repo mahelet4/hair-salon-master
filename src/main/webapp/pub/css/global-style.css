@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.navbar {
+  background-color: black !important;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+}
+
+.navbar a {
+  color: white; 
+}
+
+.navbar a:hover {
+  color: #ffb84d; 
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+//-----------------Home page-----------------
+  .container1 {
+        margin: 20px; /* Add margin to all sides */
+    }
+
+    .image-container {
+        margin-top: 200px; /* Move the images down by 200px from the top */
+    }
+
+    /* Optional: Style the h1 as desired */
+    .custom-h1 {
+        margin-bottom: 20px; /* Add margin to the bottom of h1 */
+        text: center;
+    }
+//-----------------------Booking create page -------------------
+.table1 {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+//-----------------------------footer---------------------
+footer {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 60px
+    background-color: #000;
+    color: white;
+    overflow-x: hidden;
+}
+
+//------------------------mediaQuery-----------------------------
+//---------for NavaBar-----------
+@media (min-width: 768px) {
+  .navbar {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
